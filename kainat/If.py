@@ -1,7 +1,7 @@
 import random;
 
 x = int(input("Enter the number : "));
-y = random.randint(0,5);
+y = random.randint(1,6);
 
 if(x == y):
     print("number is match");
