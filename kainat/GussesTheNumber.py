@@ -1,11 +1,11 @@
 import random;
 
-x = int(input("Enter the number : "));
-y = random.randint(1,6);
+user = int(input("Enter the number : "));
+computer = random.randint(1,6);
 
-if(x == y):
-    print("number is match");
+if(user == computer):
+    print("User Won The Ganme");
 else:
-    print("number is not match and the correct number is : ", y);
+    print("User Lost The Game And The Correct Number Is : ", computer);
 
 
