@@ -1,5 +1,5 @@
-x =int(input("Enter the number : "));
-if(x == 1,10);
+x =int(input("Enter the number  :  "));
+if(x == 10):
+   print("The number is match ");
 else:
-    print("the number is match");
-print("the number is not match");                    
+   print("The number is not match ");                
