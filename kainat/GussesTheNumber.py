@@ -1,7 +1,7 @@
 import random;
 
 user = int(input("Enter the number : "));
-computer = random.randint(1,6);
+computer = random.randint(4,5);
 
 if(user == computer):
     print("User Won The Ganme");
